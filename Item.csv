@@ -1,0 +1,396 @@
+ITEM,ITEM_NAME,ITEM_SIZE,CATEGORY_NAME,OUNCE,CUSTARD_TYPE
+1006,Sm Concrete,Small,Concretes,10.5,vanilla
+1007,Med. Concrete,Medium ,Concretes,14.5,vanilla
+1008,Large Concrete,Large,Concretes,21,vanilla
+1011,Sm Br Hot Fdge,Small,Concretes,10.5,vanilla
+1012,Md Br Hot Fudge,Medium ,Concretes,14.5,vanilla
+1013,Lg Br Hot Fudge,Large,Concretes,21,vanilla
+1021,Sm Gooey Concrt,Small,Concretes,10.5,vanilla
+1022,Md Gooey Concrt,Medium ,Concretes,14.5,vanilla
+1023,Lg Gooey Concrt,Large,Concretes,21,vanilla
+1026,Sm Chock-O,Small,Concretes,10.5,chocolate
+1027,Med. Chock-O,Medium ,Concretes,14.5,chocolate
+1028,Lg Chock-O,Large,Concretes,21,chocolate
+1031,Sm Btr Pcn Conc,Small,Concretes,10.5,vanilla
+1032,Md Btr Pcn Conc,Medium ,Concretes,14.5,vanilla
+1033,Lg Btr Pcn Conc,Large,Concretes,21,vanilla
+1036,Sm Cherry Bash,Small,Concretes,10.5,vanilla
+1037,Md Cherry Bash,Medium ,Concretes,14.5,vanilla
+1038,Lg Cherry\nBash,Large,Concretes,21,vanilla
+1041,Sm Jackhmr Conc,Small,Concretes,10.5,vanilla
+1042,Md Jackhmr Conc,Medium ,Concretes,14.5,vanilla
+1043,Lg Jackhmr Conc,Large,Concretes,21,vanilla
+1046,Sm Thin Mint,Small,Concretes,10.5,vanilla
+1047,Md Thin Mint,Medium ,Concretes,14.5,vanilla
+1048,Lg Thin Mint,Large,Concretes,21,vanilla
+1051,Sm ThinMintJack,Small,Concretes,10.5,vanilla
+1052,Md ThinMintJack,Medium ,Concretes,14.5,vanilla
+1053,Lg ThinMintJack,Large,Concretes,21,vanilla
+1056,Sm James Brown,Small,Concretes,10.5,vanilla
+1057,Md James Brown,Medium ,Concretes,14.5,vanilla
+1058,Lg James Brown,Large,Concretes,21,vanilla
+1061,Sm Crunch,Small,Concretes,10.5,vanilla
+1062,Med. Crunch,Medium ,Concretes,14.5,vanilla
+1063,Lg Crunch,Large,Concretes,21,vanilla
+1066,Sm Snow Monster,Small,Concretes,10.5,vanilla
+1067,Md Snow Monster,Medium ,Concretes,14.5,vanilla
+1068,Lg Snow Monster,Large,Concretes,21,vanilla
+1071,Sm App Pie Jmr,Small,Concretes,10.5,vanilla
+1072,Md App Pie Jmr,Medium ,Concretes,14.5,vanilla
+1073,Lg App Pie Jmr,Large,Concretes,21,vanilla
+1076,Sm Apple Pie,Small,Concretes,10.5,vanilla
+1077,Med Apple Pie,Medium ,Concretes,14.5,vanilla
+1078,Lg Apple Pie,Large,Concretes,21,vanilla
+1081,Sm Mint Chip,Small,Concretes,10.5,vanilla
+1082,Med Mint Chip,Medium ,Concretes,14.5,vanilla
+1083,Lg Mint Chip,Large,Concretes,21,vanilla
+1086,Sm Almond Joy,Small,Concretes,10.5,vanilla
+1087,Med Almond Joy,Medium ,Concretes,14.5,vanilla
+1088,LG Almond Joy,Large,Concretes,21,vanilla
+1091,Sm KeyLime Pie,Small,Concretes,10.5,vanilla
+1092,Md KeyLime Pie,Medium ,Concretes,14.5,vanilla
+1093,Lg KeyLime Pie,Large,Concretes,21,vanilla
+1096,Sm Jitterbug,Small,Concretes,10.5,vanilla
+1097,Med Jitterbug,Medium ,Concretes,14.5,vanilla
+1098,Lg Jitterbug,Large,Concretes,21,vanilla
+1101,Sm Pumpkin Pie,Small,Concretes,10.5,vanilla
+1102,Md Pumpkin Pie,Medium ,Concretes,14.5,vanilla
+1103,Lg Pumpkin Pie,Large,Concretes,21,vanilla
+1106,Sm Boot Daddy,Small,Concretes,10.5,vanilla
+1107,Md Boot Daddy,Medium ,Concretes,14.5,vanilla
+1108,Lg Boot Daddy,Large,Concretes,21,vanilla
+1111,Sm Candy Cane,Small,Concretes,10.5,vanilla
+1112,Md Candy Cane,Medium ,Concretes,14.5,vanilla
+1113,Lg Candy Cane,Large,Concretes,21,vanilla
+1116,Sm. Shtcke Cnc,Small,Concretes,10.5,vanilla
+1117,Md. Shtcke Cnc,Medium ,Concretes,14.5,vanilla
+1118,Lg Shtcke Cnc,Large,Concretes,21,vanilla
+1126,Sm Shtcke Cnc,Small,Concretes,10.5,vanilla
+1127,Med Shtcke Cnc,Medium ,Concretes,14.5,vanilla
+1128,Lg Shtcke Cnc,Large,Concretes,21,vanilla
+1131,Sm German Cnc,Small,Concretes,10.5,chocolate
+1132,Med German Cnc,Medium ,Concretes,14.5,chocolate
+1133,Lg German Cnc,Large,Concretes,21,chocolate
+1141,Sm Rico Sauve,Small,Concretes,10.5,vanilla
+1142,Med Rico Sauve,Medium ,Concretes,14.5,vanilla
+1143,Lg Rico Sauve,Large,Concretes,21,vanilla
+1161,Sm Blackberry,Small,Concretes,10.5,vanilla
+1162,Med Blackberry,Medium ,Concretes,14.5,vanilla
+1163,Lg Blackberry,Large,Concretes,21,vanilla
+1166,Sm Peach,Small,Concretes,10.5,vanilla
+1167,Med Peach,Medium ,Concretes,14.5,vanilla
+1168,Lg Peach Concrt,Large,Concretes,21,vanilla
+1176,Sm Trp Choc Cnt,Small,Concretes,10.5,chocolate
+1177,Md Trp Choc Cnt,Medium ,Concretes,14.5,chocolate
+1178,Lg Trp Choc Cnt,Large,Concretes,21,chocolate
+1181,Sm Hog Heaven,Small,Concretes,10.5,vanilla
+1182,Md Hog Heaven,Medium ,Concretes,14.5,vanilla
+1183,Lg Hog Heaven,Large,Concretes,21,vanilla
+1186,Sm Blueberry,Small,Concretes,10.5,vanilla
+1187,Md Blueberry,Medium ,Concretes,14.5,vanilla
+1188,Lg Blueberry,Large,Concretes,21,vanilla
+50010,SM Drury Cnt,Small,Concretes,10.5,vanilla
+50011,Md Drury Cnt,Medium ,Concretes,14.5,vanilla
+50012,Lg Drury Cnt,Large,Concretes,21,vanilla
+50019,Sm Boomer Bear,Small,Concretes,10.5,vanilla
+50020,Med Boomer Bear,Medium ,Concretes,14.5,vanilla
+50021,Lg Boomer Bear,Large,Concretes,21,vanilla
+50026,Sm KY3,Small,Concretes,10.5,vanilla
+50027,Med KY3,Medium ,Concretes,14.5,vanilla
+50028,Lg KY3,Large,Concretes,21,vanilla
+50031,Sm Muddy Conc,Small,Concretes,10.5,vanilla
+50032,Md Muddy,Medium ,Concretes,14.5,vanilla
+50033,Lg Muddy,Large,Concretes,21,vanilla
+50041,Sm Traffic Jam,Small,Concretes,10.5,vanilla
+50042,Md Traffic Jam,Medium ,Concretes,14.5,vanilla
+50043,Lg Traffic Jam,Large,Concretes,21,vanilla
+50051,Sm Lil Digger,Small,Concretes,10.5,vanilla
+50052,Md Lil Digger,Medium ,Concretes,14.5,vanilla
+50053,LG Lil Digger,Large,Concretes,21,vanilla
+50061,Sm BLING,Small,Concretes,10.5,vanilla
+50062,Md BLING,Medium ,Concretes,14.5,vanilla
+50063,Lg BLING,Large,Concretes,21,vanilla
+50066,Sm Magic Rasp,Small,Concretes,10.5,vanilla
+50067,Md Magic Rasp,Medium ,Concretes,14.5,vanilla
+50068,Lg Magic Rasp,Large,Concretes,21,vanilla
+50080,Sm Red Velvet,Small,Concretes,10.5,vanilla
+50081,Md Red Velvet,Medium ,Concretes,14.5,vanilla
+50082,Lg Red Velvet,Large,Concretes,21,vanilla
+50092,Sm Highrise,Small,Concretes,10.5,vanilla
+50093,Md Highrise,Medium ,Concretes,14.5,vanilla
+50094,Lg Highrise,Large,Concretes,21,vanilla
+50102,Sm Turtle Concr,Small,Concretes,10.5,vanilla
+50103,Md Turtle Concr,Medium ,Concretes,14.5,vanilla
+50104,Lg Turtle Concr,Large,Concretes,21,vanilla
+50112,Sm Wild Woody,Small,Concretes,10.5,vanilla
+50113,Md Wild Woody,Medium ,Concretes,14.5,vanilla
+50114,Lg Wild Woody,Large,Concretes,21,vanilla
+50122,Sm Quack Attack,Small,Concretes,10.5,vanilla
+50123,Md Quack Attack,Medium ,Concretes,14.5,vanilla
+50124,Lg Quack Attack,Large,Concretes,21,vanilla
+50132,Sm It Concrete,Small,Concretes,10.5,vanilla
+50133,Md It Concrete,Medium ,Concretes,14.5,vanilla
+50134,Lg It Concrete,Large,Concretes,21,vanilla
+50152,SM  Kapau Concr,Small,Concretes,10.5,vanilla
+50153,MD Kapau Concre,Medium ,Concretes,14.5,vanilla
+50154,LG Kapau Cncrt,Large,Concretes,21,vanilla
+50162,SM VOO CREW,Small,Concretes,10.5,vanilla
+50163,MD VOO CREW,Medium ,Concretes,14.5,vanilla
+50164,LG VOO CREW,Large,Concretes,21,vanilla
+50202,Sm RR Express,Small,Concretes,10.5,vanilla
+50203,Md RR Express,Medium ,Concretes,14.5,vanilla
+50204,LG RR Express,Large,Concretes,21,vanilla
+4060,Kids Sundae,kid,Sundaes,4,vanilla
+4061,1/2 Custom Sund,kid,Sundaes,4,vanilla
+4062,Custom Sundae,regular,Sundaes,8.5,vanilla
+4063,Lg Custom Sund,Large,Sundaes,11.5,vanilla
+4066,Kids Sprinkle S,kid,Sundaes,4,vanilla
+4070,K-Tin Roof Sund,kid,Sundaes,4,vanilla
+4071,1/2 Tin Rf Sund,kid,Sundaes,4,vanilla
+4072,Tin Roof Sundae,regular,Sundaes,8.5,vanilla
+4073,Lg Tin Roof Snd,Large,Sundaes,11.5,vanilla
+4090,K Turtle Sundae,kid,Sundaes,4,vanilla
+4091,1/2 Turtle Sund,kid,Sundaes,4,vanilla
+4092,Oz Turtle Sunda,regular,Sundaes,8.5,vanilla
+4093,Lg Turtle Sunda,Large,Sundaes,11.5,vanilla
+4100,Kids Sundae,kid,Sundaes,4,vanilla
+4110,K Ht Fge Sund,kid,Sundaes,4,vanilla
+4111,1/2 Ht Fge Sund,kid,Sundaes,4,vanilla
+4112,Hot Fge Sundae,regular,Sundaes,8.5,vanilla
+4113,Lg Hot Fge Sund,Large,Sundaes,11.5,vanilla
+4120,K Hot Fdg Pec,kid,Sundaes,4,vanilla
+4121,1/2 Fdg Pecans,kid,Sundaes,4,vanilla
+4122,Hot Fdg Pecans,regular,Sundaes,8.5,vanilla
+4123,LG Hot Fdg Pec,Large,Sundaes,11.5,vanilla
+4140,K Strawana,kid,Sundaes,4,vanilla
+4141,1/2 Strawana,kid,Sundaes,4,vanilla
+4142,Sm Straw-Ana,regular,Sundaes,8.5,vanilla
+4144,Lg Straw-Ana,Large,Sundaes,11.5,vanilla
+4192,SM Peach Sundae,regular,Sundaes,8.5,vanilla
+50036,Hot Anna,regular,Sundaes,8.5,vanilla
+50071,1/2 Magic Milk,kid,Sundaes,4,vanilla
+50072,Magic Milk,regular,Sundaes,8.5,vanilla
+50073,Lg Magic Milk,Large,Sundaes,11.5,vanilla
+1135,Child Cassanova,kid,HalfBaked_Sundaes,2.5,vanilla
+1136,Rg Cassanova,regular,HalfBaked_Sundaes,5,vanilla
+1137,Cass NO Almonds,regular,HalfBaked_Sundaes,5,vanilla
+1138,1/2 Cass No Alm,kid,HalfBaked_Sundaes,2.5,vanilla
+4012,App Pie Sundae,regular,HalfBaked_Sundaes,5,vanilla
+4030,K Brn Sund,kid,HalfBaked_Sundaes,2.5,vanilla
+4031,Child  Brn Sund,kid,HalfBaked_Sundaes,2.5,vanilla
+4032,Brownie Sundae,regular,HalfBaked_Sundaes,5,vanilla
+4040,K Brn Snd/wPcn,kid,HalfBaked_Sundaes,2.5,vanilla
+4041,1/2Brn Snd/wPcn,kid,HalfBaked_Sundaes,2.5,vanilla
+4042,Brn Sndae Pecn,regular,HalfBaked_Sundaes,5,vanilla
+4130,K- Shortcakde,kid,HalfBaked_Sundaes,2.5,vanilla
+4131,1/2 Shortcakde,kid,HalfBaked_Sundaes,2.5,vanilla
+4132,Shortcke Sundae,regular,HalfBaked_Sundaes,5,vanilla
+4152,StrwCake Sunda,regular,HalfBaked_Sundaes,5,vanilla
+4082,Banana Split,regular,Splits,7.5,vanilla
+4163,Turtle Split,regular,Splits,7.5,vanilla
+4182,Custom Split,regular,Splits,7.5,vanilla
+3040,Sm Malt,regular,Shakes_Malts_Freezes,8.5,vanilla
+3045,Lrg Malt,Large,Shakes_Malts_Freezes,13,vanilla
+3055,Sm Old Fsn Frz,regular,Shakes_Malts_Freezes,8.5,vanilla
+3060,Lrg Old Fsn Frz,Large,Shakes_Malts_Freezes,13,vanilla
+3085,Sm Shake,regular,Shakes_Malts_Freezes,4,vanilla
+3090,Lrg Shake,Large,Shakes_Malts_Freezes,13,vanilla
+3100,Andy Nog,regular,Shakes_Malts_Freezes,8.5,vanilla
+3105,Lg Andy Nog,Large,Shakes_Malts_Freezes,13,vanilla
+3025,Float,regular,Floats,4.25,vanilla
+3030,Float,Large,Floats,6,vanilla
+3070,Soda,regular,Sodas,4.25,vanilla
+3075,Soda,Large,Sodas,6,vanilla
+5005,Up,Small,Cups_Cones,5.5,vanilla
+5010,Attic,Medium ,Cups_Cones,7.5,vanilla
+5015,Super,Large,Cups_Cones,11,vanilla
+5020,Jumbo,Jumbo,Cups_Cones,13,vanilla
+5025,Down,Down,Cups_Cones,3.5,vanilla
+5030,Cup,,Cups_Cones,,
+5035,Cone,,Cups_Cones,,
+5040,Cone Empty,Cone E,Cups_Cones,,
+5090,Up Vanilla,Small,Cups_Cones,5.5,vanilla
+5095,Up Choc,Small,Cups_Cones,5.5,chocolate
+5100,Attic Vanilla,Medium ,Cups_Cones,7.5,vanilla
+5105,Attic Choc,Medium ,Cups_Cones,7.5,chocolate
+5110,Super\nNilla,Large,Cups_Cones,11,vanilla
+5115,Super Choc,Large,Cups_Cones,11,chocolate
+5120,Jumbo Nilla,Jumbo,Cups_Cones,13,vanilla
+5125,Jumbo Choc,Jumbo,Cups_Cones,13,chocolate
+5130,Child Nilla,kid,Cups_Cones,3.5,vanilla
+5135,Child Choc,kid,Cups_Cones,3.5,chocolate
+5140,Up Mix,Small,Cups_Cones,5.5,chocolate
+5145,Attic Mix,Medium ,Cups_Cones,7.5,chocolate
+5155,Jumbo Mix,Jumbo,Cups_Cones,13,chocolate
+5160,Super Mix,Large,Cups_Cones,11,chocolate
+50170,Ice Chill,Ice Ch,Cups_Cones,,
+50171,Child Straw,kid,Cups_Cones,3.5,vanilla
+50172,Sm Straw,Small,Cups_Cones,5.5,vanilla
+50173,Md Straw,Medium ,Cups_Cones,7.5,vanilla
+50174,Lg Straw,Large,Cups_Cones,11,vanilla
+50175,Child Rasp,kid,Cups_Cones,3.5,vanilla
+50177,Sm Rasp,Small,Cups_Cones,5.5,vanilla
+50180,Md Rasp,Medium ,Cups_Cones,7.5,vanilla
+50181,Lg Rasp,Large,Cups_Cones,11,vanilla
+50182,Sm Mixed,Small,Cups_Cones,5.5,chocolate
+50183,Md Mixed,Medium ,Cups_Cones,7.5,chocolate
+50184,Lg Mixed,Large,Cups_Cones,11,chocolate
+6110,Custard Bar,,Pre-Packed,,
+6145,Italian Ice,,Pre-Packed,,
+6150,Lemon,,Pre-Packed,,
+6155,Raspberry,,Pre-Packed,,
+6160,Strawberry,,Pre-Packed,,
+6210,4 Pk Cstrd  Bar,,Pre-Packed,,
+6005,TakeHome,,TakeHome,,
+6010,Pint  Vanilla,Pint,TakeHome,,
+6015,Pint Chocolate,Pint,TakeHome,,
+6020,Pint Mix,Pint,TakeHome,,
+6025,PT HotFdg Brown,Pint,TakeHome,,
+6030,QT  Vanilla,quart,TakeHome,,
+6035,QT Chocolate,quart,TakeHome,,
+6040,Quart Pumpkin,quart,TakeHome,,
+6045,QT MIX,quart,TakeHome,,
+6050,1/2 Gal  Van,1/2 Ga,TakeHome,,
+6055,1/2 Gal Choc,1/2 Ga,TakeHome,,
+6060,1/2 Gal Mix,1/2 Ga,TakeHome,,
+6065,Butter Pecan,Pint,TakeHome,,
+6070,Mint Choc Chip,Pint,TakeHome,,
+6075,Bord Chry Chip,Pint,TakeHome,,
+6080,Straw Cheesecak,Pint,TakeHome,,
+6085,Cookie Dough,Pint,TakeHome,,
+6090,Candy Cane,Pint,TakeHome,,
+6095,Candy Cane Choc,Pint,TakeHome,,
+6120,Ht Fdge Brwn PT,Pint,TakeHome,,
+6125,6oz Mini Cups,6oz Mi,Catering,6,vanilla
+6130,6 oz Mini Flav,6 oz M,Catering,6,vanilla
+6135,50-Flavor,50-Fla,Catering,300,vanilla
+6140,50-6oz Mini,50-6oz,Catering,300,vanilla
+6265,Sm Root Beer Sp,Small,Beverages,,
+6270,Rg Root Beer Sp,Medium ,Beverages,,
+6275,Lg Root Beer Sp,Large,Beverages,,
+6295,Sm Cream Soda,Small,Beverages,,
+6300,Rg Cream Soda,Medium ,Beverages,,
+6305,Lg Cream Soda,Large,Beverages,,
+6325,Small Drink,Small,Beverages,,
+6330,Reg Drink,Medium ,Beverages,,
+6335,Large Drink,Large,Beverages,,
+6340,Lrg Water,Large,Beverages,,
+6345,Comp Water,,Beverages,,
+6355,Sm Coke,Small,Beverages,,
+6360,Coke,,Beverages,,
+6365,Lg Coke,Large,Beverages,,
+6385,Sm Dt Coke,Small,Beverages,,
+6390,Diet Coke,,Beverages,,
+6395,Lg Dt Coke,Large,Beverages,,
+6415,Sm Sprite,Small,Beverages,,
+6420,Sprite,,Beverages,,
+6425,Lg Sprite,Large,Beverages,,
+6435,Yummy Latte,,Beverages,,
+6445,Sm Dr Pepper,Small,Beverages,,
+6450,Dr Pepper,,Beverages,,
+6455,Lg Dr Pepper,Large,Beverages,,
+6475,Sm Orange,Small,Beverages,,
+6480,Orange Dream,,Beverages,,
+6485,Lg Orange,Large,Beverages,,
+6500,Bottle Flavors,,Beverages,,
+6505,Orange Dream,,Beverages,,
+6510,Root Beer,,Beverages,,
+6515,Crm Soda,,Beverages,,
+6525,Sweet Tea,Large,Beverages,,
+6535,Ice Tea,Large,Beverages,,
+6540,Raspberry Tea,Large,Beverages,,
+6545,Bottle Water,,Beverages,,
+6550,1/2n1/2 Tea,Large,Beverages,,
+6805,4-Pack,4-Pack,Beverages,,
+2039,Apple Pie,,Toppings,,
+2040,Brownie,,Toppings,,
+2041,Cookie,,Toppings,,
+2042,Shortcake,,Toppings,,
+10005,Almonds,,Toppings,,
+10010,Bananas,,Toppings,,
+10015,Butterfinger,,Toppings,,
+10020,Butterscotch,,Toppings,,
+10025,Blackberry,,Toppings,,
+10030,Blueberry,,Toppings,,
+10035,Andy Nog,,Toppings,,
+10040,Apple Pie,,Toppings,,
+10045,Coconut,,Toppings,,
+10050,Caramel,,Toppings,,
+10055,Coffee,,Toppings,,
+10060,Candy Cane,,Toppings,,
+10065,Cheesecake,,Toppings,,
+10070,Cherries,,Toppings,,
+10075,Choc. Chips,,Toppings,,
+10080,Choc. Syrup,,Toppings,,
+10085,Chocolate,,Toppings,,
+10090,Vanilla,,Toppings,,
+10095,Cookie Dough,,Toppings,,
+10100,Cream Carmel,,Toppings,,
+10105,Espresso,,Toppings,,
+10110,Heath Bars,,Toppings,,
+10115,Hot fudge,,Toppings,,
+10120,Fire N the Hole,,Toppings,,
+10121,Key lime,,Toppings,,
+10125,Thin Mint,,Toppings,,
+10130,Liquid Mint,,Toppings,,
+10135,M&M's,,Toppings,,
+10140,Marshmallow,,Toppings,,
+10145,Mixed Nuts,,Toppings,,
+10150,Mint Chip,,Toppings,,
+10155,Oreo,,Toppings,,
+10160,Ooey Gooey,,Toppings,,
+10165,Peach,,Toppings,,
+10170,Peanut Butter,,Toppings,,
+10175,Pb,,Toppings,,
+10180,Peanuts,,Toppings,,
+10185,Candy Cane,,Toppings,,
+10190,Home Made,,Toppings,,
+10195,Pineapple,,Toppings,,
+10200,Plain,,Toppings,,
+10205,Pretzels,,Toppings,,
+10210,Pumpkin Pie,,Toppings,,
+10215,Raspberries,,Toppings,,
+10220,Reese's Pcs,,Toppings,,
+10225,pecans,,Toppings,,
+10230,Browne Chunk,,Toppings,,
+10235,Strawberry,,Toppings,,
+10240,Shortcake,,Toppings,,
+10245,Sprinkles,,Toppings,,
+10246,Gummy Worms,,Toppings,,
+10247,Magic Milk,,Toppings,,
+10250,Choc Custard,,Toppings,,
+10255,Key Lime  Pie,,Toppings,,
+10260,Askinosie,,Toppings,,
+1211,Concrete Upgrade ,,,3,vanilla
+4022,Apple Pie With Sundae,regular,Sundaes,8.5,vanilla
+4194,LG Peach Sundae,Large,Sundaes,11.5,vanilla
+7000,Hats,,,,
+10290,Extra Thick,,,1.5,vanilla
+10305,Extra Scoop,,,2,vanilla
+25001,ALMONDS,,Toppings,,
+25020,BUTTERSCOTCH,,Toppings,,
+25040,BUTTERFINGER,,Toppings,,
+25042,CHEESECAKE,,Toppings,,
+25043,CHERRIES,,Toppings,,
+25060,CHOC. SYRUP,,Toppings,,
+25063,COOKIE DOUGH,,Toppings,,
+25064,CREAM CARMEL,,Toppings,,
+25066,HEATH BARS,,Toppings,,
+25081,HOT FUDGE,,Toppings,,
+25105,M&M's,,Toppings,,
+25110,MARSHMALLOW,,Toppings,,
+25120,MIXED NUTS,,Toppings,,
+25141,OREO,,Toppings,,
+25160,PB,,Toppings,,
+25180,PEACH,,Toppings,,
+25200,PEANUT BUTTER,,Toppings,,
+25210,PEANUTS,,Toppings,,
+25220,PECANS,,Toppings,,
+25240,PINEAPPLE,,Toppings,,
+25261,PRETZELS,,Toppings,,
+25280,RASPBERRIES,,Toppings,,
+25301,REESE'S PCS,,Toppings,,
+25310,SPRINKLES,,Toppings,,
+25311,STRAWBERRY,,Toppings,,
+40003,Gift Card,,,,
+50050, Kids Lil Digger,,,4,vanilla
