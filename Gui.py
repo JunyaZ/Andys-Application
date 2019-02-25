@@ -1,4 +1,5 @@
 ﻿import os
+import numpy as np
 from tkinter import *
 from tkinter.messagebox import *
 import pandas as pd 
@@ -9,7 +10,7 @@ from CustardSheet import Prediction
 from CustardSheet import Prediction_half
 
 
-currentpath = os.getcwd()
+currentpath = sys.path[0]
 output =currentpath+"\\Output"
 
 class LoginPage(Frame):  
@@ -26,12 +27,11 @@ class LoginPage(Frame):
         Label(self, text = 'Password: ').grid(row=2, stick=W, pady=10)  
         Entry(self, textvariable=self.password, show='*').grid(row=2, column=1, stick=E)  
         Button(self, text='Login', command=self.loginCheck).grid(row=3, column=4,pady=10)  
-#        Button(self, text='Log out', command=self.quit).grid(row=3, column=1, stick=E)
     
     def loginCheck(self):
         name = self.username.get()
         secret = self.password.get()
-        if name=="Manager" and secret=='andys':  
+        if name=="mgr" and secret=='Andys':  
             self.destroy()
             #page2 = DatabaseInterface()
             DatabaseInterface().mainloop()        
@@ -82,15 +82,17 @@ class DatabaseInterface (Frame):
         self._retriveButton.grid(row = 0, column = 0,)
         self._retriveButton = Button(self._buttonsPane, text = "Half Hour",command = self.reprort_halfhour)
         self._retriveButton.grid(row = 0, column = 1,)
+
+        #clear entry button
+        self._clearEntryButton = Button(self._buttonsPane, text = "Clear Entry",
+                                        command = self._clearEntry)
+        self._clearEntryButton.grid(row = 0, column = 4)
+        
         #clear table button
         self._clearTableButton = Button(self._buttonsPane, text = "Clear Data",
                                         command = self._clearTable)
         self._clearTableButton.grid(row = 0, column = 3)
         
-        #clear entry button
-        self._clearEntryButton = Button(self._buttonsPane, text = "Clear Entry",
-                                        command = self._clearEntry)
-        self._clearEntryButton.grid(row = 0, column = 4)
 
         #scrollbar
         scrollbar = Scrollbar(self._tablePane, orient =VERTICAL, command =self.yview)
@@ -98,32 +100,32 @@ class DatabaseInterface (Frame):
         
         """Create table"""
         #name column
-        self._ProjectedCol = Listbox(self._tablePane, width = 10, selectborderwidth =2, height = 27, yscrollcommand = scrollbar.set)
+        self._ProjectedCol = Listbox(self._tablePane, width = 10, selectborderwidth =2, height = 29, yscrollcommand = scrollbar.set)
         self._ProjectedCol.grid(row = 0, column = 0, sticky = W+E+N+S)
         self._ProLabel = Label(self._buttonsPane, text = "HOUR").grid(row = 1, column = 0,padx=16)        
         #city column
-        self._DatesCol = Listbox(self._tablePane,selectborderwidth =2, width = 10, height = 27)
+        self._DatesCol = Listbox(self._tablePane,selectborderwidth =2, width = 10, height = 29)
         self._DatesCol.grid(row = 0, column = 1)
         self._dateLabel = Label(self._buttonsPane, text = "Vanilla (Treats)", wraplength = 50).grid(row = 1, column = 1, padx=10)
         #street column
-        self._iCol = Listbox(self._tablePane, selectborderwidth =2,width = 10, height = 27, yscrollcommand =scrollbar.set)
+        self._iCol = Listbox(self._tablePane, selectborderwidth =2,width = 10, height = 29, yscrollcommand =scrollbar.set)
         self._iCol.grid(row = 0, column = 2,sticky =W + E+ N +S)
         self._iiLabel = Label(self._buttonsPane, text = "Vanilla (ounces)", wraplength = 50).grid(row = 1, column = 2,padx=12)
 
         
-        self._aCol = Listbox(self._tablePane, selectborderwidth =2,width = 10, height = 27, yscrollcommand =scrollbar.set)
+        self._aCol = Listbox(self._tablePane, selectborderwidth =2,width = 10, height = 29, yscrollcommand =scrollbar.set)
         self._aCol.grid(row = 0, column = 3,sticky =W + E+ N +S)
         self._aaLabel = Label(self._buttonsPane, text = "Vanilla (Buckets)",wraplength = 50).grid(row = 1, column = 3,padx=6)
 
-        self._bCol = Listbox(self._tablePane,selectborderwidth =2, width = 10, height = 27, yscrollcommand =scrollbar.set)
+        self._bCol = Listbox(self._tablePane,selectborderwidth =2, width = 10, height = 29, yscrollcommand =scrollbar.set)
         self._bCol.grid(row = 0, column = 4,sticky =W + E+ N +S)
         self._bbLabel = Label(self._buttonsPane, text = "Chocolate (Treats)", wraplength = 60).grid(row = 1, column = 4,padx=6)
         
-        self._cCol = Listbox(self._tablePane, selectborderwidth =2,width = 10, height = 27, yscrollcommand =scrollbar.set)
+        self._cCol = Listbox(self._tablePane, selectborderwidth =2,width = 10, height = 29, yscrollcommand =scrollbar.set)
         self._cCol.grid(row = 0, column = 5,sticky =W + E+ N +S)
         self._dateLabel = Label(self._buttonsPane, text = "Chocolate (ounces)", wraplength = 60).grid(row = 1, column = 5,padx=4)
         
-        self._dCol = Listbox(self._tablePane, selectborderwidth =2,width = 10, height = 27, yscrollcommand =scrollbar.set)
+        self._dCol = Listbox(self._tablePane, selectborderwidth =2,width = 10, height = 29, yscrollcommand =scrollbar.set)
         self._dCol.grid(row = 0, column = 6,sticky =W + E+ N +S)
         self._ddLabel = Label(self._buttonsPane, text = "Chocolate (Buckets)", wraplength = 60).grid(row = 1, column = 6,padx=4)
 
@@ -139,6 +141,7 @@ class DatabaseInterface (Frame):
 
         #Retrive all button function
     def _retriveAll(self):
+        
         UserInput =self._ProjectedVar.get()
         today =self._DatesVar.get()
         if UserInput =="":
@@ -147,12 +150,19 @@ class DatabaseInterface (Frame):
             if today=="":
                 Dates = datetime.datetime.today()
             else:
-                Dates =datetime.datetime.strptime(today, '%Y-%m-%d')
+                Dates =datetime.datetime.strptime(today, '%m/%d/%Y')
             os.makedirs(output)
             SelectDate(Dates)
             Report = Prediction(int(UserInput))
             length =len(Report)
-            print(Report)
+            self._clearTable()
+#            self._ProjectedCol.delete(0 , END)
+#            self._DatesCol.delete(0 , END)
+#            self._iCol.delete(0 , END)
+#            self._aCol.delete(0 , END)
+#            self._bCol.delete(0 , END)
+#            self._cCol.delete(0 , END)
+#            self._dCol.delete(0 , END)
             for i in range(length-1):
                 self._ProjectedCol.insert(END, datetime.datetime.strptime(str(Report.iloc[i:i+1,0:1].values.tolist()[0][0]), "%H").strftime("%I:%M %p"))
                 self._ProjectedCol.see(END)         
@@ -182,7 +192,12 @@ class DatabaseInterface (Frame):
             self._cCol.see(END)
             self._dCol.insert(END,Report.iloc[length-1:length,6:7].values.tolist())
             self._dCol.see(END)
-            
+#            Report["HOUR"]= Report.apply(lambda row : datetime.datetime.strptime(row["HOUR"], "%H").strftime("%I:%M %p"))
+            Report["Actual Custard"] = np.nan
+            Report["Custard Over/Short"]=np.nan
+            name=str(UserInput) +"$_" +datetime.datetime.strptime(today, '%m/%d/%Y').strftime("%Y%m%d")+"_Hourly.csv"
+#            Report.to_csv(os.path.join(os.path.expanduser('~'),'Desktop',name),index=False)
+            Report.to_csv("D:\\Users\\Mgr\\Desktop\\"+ name,index=False)
             shutil.rmtree(output)
 
         #Retrive all button function
@@ -195,12 +210,19 @@ class DatabaseInterface (Frame):
             if today=="":
                 Dates = datetime.datetime.today()
             else:
-                Dates =datetime.datetime.strptime(today, '%Y-%m-%d')
+                Dates =datetime.datetime.strptime(today, '%m/%d/%Y')
             os.makedirs(output)
             SelectDate(Dates)
             Report = Prediction_half(int(UserInput))
             length =len(Report)
-            print(Report)
+            self._clearTable()
+#            self._ProjectedCol.delete(0 , END)
+#            self._DatesCol.delete(0 , END)
+#            self._iCol.delete(0 , END)
+#            self._aCol.delete(0 , END)
+#            self._bCol.delete(0 , END)
+#            self._cCol.delete(0 , END)
+#            self._dCol.delete(0 , END)
             for i in range(length-1):
                 self._ProjectedCol.insert(END, datetime.datetime.strptime(str(Report.iloc[i:i+1,0:1].values.tolist()[0][0]), "%H:%M").strftime("%I:%M %p"))
                 self._ProjectedCol.see(END)         
@@ -230,11 +252,16 @@ class DatabaseInterface (Frame):
             self._cCol.see(END)
             self._dCol.insert(END,Report.iloc[length-1:length,6:7].values.tolist())
             self._dCol.see(END)
-            
+#            Report["HOUR"]= Report.apply(lambda row : datetime.datetime.strptime(row["HOUR"], "%H:%M").strftime("%I:%M %p"))
+            Report["Actual Custard"] = np.nan
+            Report["Custard Over/Short"]=np.nan
+            name=str(UserInput) +"$_" +datetime.datetime.strptime(today, '%m/%d/%Y').strftime("%Y%m%d")+"_Half_Hour.csv"
+#            Report.to_csv(os.path.join(os.path.expanduser('~'),'Desktop',name),index=False)
+            Report.to_csv("D:\\Users\\Mgr\\Desktop\\"+ name,index=False)
             shutil.rmtree(output)
-        
-                
-    #clear table button function
+#        
+#                
+#    #clear table button function
     def _clearTable(self):
         self._ProjectedCol.delete(0 , END)
         self._DatesCol.delete(0 , END)

@@ -13,14 +13,14 @@ from Gui import DatabaseInterface
 root = Tk()  
 root.title('Manager Login')  
 width = 500  
-height =700
+height =720
 screenwidth = root.winfo_screenwidth()    
 screenheight = root.winfo_screenheight()   
 alignstr = '%dx%d+%d+%d' % (width, height, (screenwidth-width)/2, (screenheight-height)/2)  
 root.geometry(alignstr)    # align center
 
 """Start program."""
-page1 = LoginPage()
+page1 = DatabaseInterface()
 root.mainloop()
 print(" Closed the connetion to the DB")
         
