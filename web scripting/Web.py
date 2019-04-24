@@ -43,7 +43,7 @@ def filtering(Path,i):
     bio = io.BytesIO(str.encode(buffer.getvalue()))
     ftp.storbinary('STOR '+listcode[i]+day+'.csv', bio)
 def webcall():
-    web = Browser(showWindow=False)
+    web = Browser(showWindow=True)
     web.go_to('https://app.7shifts.com/employers/') 
     web.type('info@eatandys.com' , into='Email')
     web.click('NEXT' , tag='span')
