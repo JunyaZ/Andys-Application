@@ -32,16 +32,15 @@ def downloading(web,i):
 def filtering(Path,i):
     file=glob.glob(Path+"*.csv")
     df=pd.read_csv(file[0])
-    yesterday = (datetime.datetime.now() - timedelta(1)).strftime('%Y-%m-%d')
-    df=df[df["Date"]==yesterday]
+    yesterday = (datetime.datetime.now() - timedelta(1)).strftime('%Y-%m-%d_%H%M%S')
+    yesterDate=yesterday.split(sep="_")[0]
+    df=df[df["Date"]==yesterDate]
     for f in file:
         os.remove(f)
-    day=datetime.datetime.strptime(yesterday, '%Y-%m-%d').strftime("%Y-%m-%d")
-#    df.to_csv(out+listcode[i]+day+".csv",index=False)
     buffer=StringIO()
     df.to_csv(buffer,index=False)
     bio = io.BytesIO(str.encode(buffer.getvalue()))
-    ftp.storbinary('STOR '+listcode[i]+day+'.csv', bio)
+    ftp.storbinary('STOR '+listcode[i]+"_"+yesterday+'.csv', bio)
 def webcall():
     web = Browser(showWindow=True)
     web.go_to('https://app.7shifts.com/employers/') 
