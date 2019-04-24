@@ -145,4 +145,6 @@ Add-EnvPath 'C:\Python36\'
 python -m pip install numpy
 python -m pip install pandas
 python -m pip install simpledbf
+python -m pip install webbot
+python -m pip install ftplib
 
